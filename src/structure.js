@@ -6,6 +6,7 @@ sink.Structure = [
 			{
                 xtype : 'googleplaces',
                 label: 'location',
+                useClearIcon: true,
                 hideMap: true
             }
 		]

@@ -1,0 +1,27 @@
+.ts-icon-address {
+    background: url('../img/ico-address.png') no-repeat;
+}
+.ts-icon-phone {
+    background: url('../img/ico-phone.png') no-repeat;
+}
+.ts-p-label {
+    margin-left: 18px;
+}
+
+.ts-gp-image {
+    width: 100px;
+    height:100px;
+    padding-right: 10px;
+}
+
+.ts-gp-text {
+    font-size: 12px;
+    font-family: 'arial';
+    word-wrap:break-word;
+}
+.ts-gp-label {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'arial';
+    word-wrap:break-word;
+}
