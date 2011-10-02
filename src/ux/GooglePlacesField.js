@@ -63,7 +63,7 @@ Ext.reg('googleplacesfld', Ext.ux.form.GooglePlacesField);
 Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
     items:[],
     panelHeight: 400,
-    panelWidth:'100%',
+    panelWidth:400,
     onGooglePlaceFound: function(place) {
         var map = this.getMap();
         map.map.setCenter(place.geometry.location);
@@ -77,10 +77,10 @@ Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
         console.log(Ext.encode(place));
     },
     getMap: function() {
-        return Ext.getCmp(this.id + '_map');
+        return this.items.items[1].items.items[0].items.items[0];
     },
     getAddressPanel: function() {
-        return Ext.getCmp(this.id + '_address');
+        return this.items.items[1].items.items[1].items.items[0];
     },
     initComponent: function() {
         var fldConfig = Ext.apply({}, this.initialConfig);
@@ -90,46 +90,65 @@ Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
 
         fldConfig.onGooglePlaceFound = pfDelegate;
         this.items.push(fldConfig);
+
         this.items.push({
-            xtype:'panel',
+            xtype: 'tabpanel',
             height: this.panelHeight,
             width: this.panelWidth,
+        dock: 'bottom',
+        styleHtmlContent: true,
+        tabBar: {
+            dock: 'bottom',
             layout: {
-                type: 'hbox',
-                align: 'stretch'
-            },
-            items:[
-                {
-                    id: this.id + '_map',
-                    xtype: 'map',
-                    flex:1,
-                    mapOptions: {
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    },
-                    listeners:{
-                        'maprender': function(extMap, googleMap) {
-                            var task = new Ext.util.DelayedTask(function() {
-                                if (navigator.geolocation) {
-                                    navigator.geolocation.getCurrentPosition(function(position) {
-                                                console.log('marking current location...');
-                                                var currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                                                googleMap.setCenter(currentLocation);
-                                                var marker = new google.maps.Marker({
-                                                    animation: google.maps.Animation.DROP,
-                                                    map: googleMap,
-                                                    position: currentLocation
+                pack: 'center'
+            }
+        },
+        defaults: {
+            scroll: 'vertical'
+        },
+        items: [
+            {
+                title: 'Map',
+                iconCls: 'home',
+                items:[
+                    {
+                        id: this.id + '_map',
+                        xtype: 'map',
+                        height: this.panelHeight,
+                        width: this.panelWidth,
+                        mapOptions: {
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        },
+                        listeners:{
+                            'maprender': function(extMap, googleMap) {
+                                var task = new Ext.util.DelayedTask(function() {
+                                    if (navigator.geolocation) {
+                                        navigator.geolocation.getCurrentPosition(function(position) {
+                                                    console.log('marking current location...');
+                                                    var currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                                                    googleMap.setCenter(currentLocation);
+                                                    var marker = new google.maps.Marker({
+                                                        animation: google.maps.Animation.DROP,
+                                                        map: googleMap,
+                                                        position: currentLocation
+                                                    });
+                                                }, function() {
+                                                    console.log('could not obtain geolocation');
                                                 });
-                                            }, function() {
-                                                console.log('could not obtain geolocation');
-                                            });
-                                }
-                            }, googleMap);
-                            task.delay(3000);
-                        }
-                    },
-                    useCurrentLocation: false
-                },
-                {
+                                    }
+                                }, googleMap);
+                                task.delay(3000);
+                            }
+                        },
+                        useCurrentLocation: false
+                    }
+
+                ]
+            },
+            {
+                title: 'Address',
+                iconCls: 'Info',
+                items:[{
                     flex: 1,
                     id: this.id + '_address',
                     tpl: '<table class="ts-gp-text">' +
@@ -153,8 +172,10 @@ Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
                         '</tr>' +
                         '</table>'
                 }
-            ]
-        });
+                ]
+            }
+        ]
+    });
         Ext.ux.form.GooglePlacesPanel.superclass.initComponent.call(this);
     }
 });
