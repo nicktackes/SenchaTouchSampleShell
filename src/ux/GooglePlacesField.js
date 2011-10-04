@@ -63,7 +63,7 @@ Ext.reg('googleplacesfld', Ext.ux.form.GooglePlacesField);
 Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
     items:[],
     panelHeight: 400,
-    panelWidth:400,
+    panelWidth:'100%',
     onGooglePlaceFound: function(place) {
         var map = this.getMap();
         map.map.setCenter(place.geometry.location);
@@ -75,6 +75,11 @@ Ext.ux.form.GooglePlacesPanel = Ext.extend(Ext.Panel, {
         var addressPanel = this.getAddressPanel();
         addressPanel.update(place)
         console.log(Ext.encode(place));
+        // if a url exists, retrieve this data and search for images
+        if(place.url){
+            
+        }
+
     },
     getMap: function() {
         return this.items.items[1].items.items[0].items.items[0];

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a4c25b9-4e3c-4719-9f80-c00d457ecdc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/img/ico-address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/img/ico-phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure.js" afterPath="$PROJECT_DIR$/src/structure.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ux/GooglePlacesField.js" afterPath="$PROJECT_DIR$/src/ux/GooglePlacesField.js" />
     </list>
@@ -34,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="75" selection-start="581" selection-end="581" vertical-scroll-proportion="-6.875">
+            <state line="11" column="75" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GooglePlacesField.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GooglePlacesField.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ux/GooglePlacesField.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="47" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.025597269">
+            <state line="64" column="21" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="structure.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="structure.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/structure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="46" column="2" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.26940638">
               <folding />
             </state>
           </provider>
@@ -121,9 +117,9 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/structure.js" />
         <option value="$PROJECT_DIR$/resources/css/custom.css" />
         <option value="$PROJECT_DIR$/src/ux/GooglePlacesField.js" />
+        <option value="$PROJECT_DIR$/src/structure.js" />
       </list>
     </option>
   </component>
@@ -153,8 +149,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,6 +263,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,23 +301,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="67" width="1502" height="881" extended-state="0" />
+    <frame x="89" y="36" width="1502" height="881" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10091743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2663455" sideWeight="0.82306683" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27460426" sideWeight="0.89908254" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17693315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17693315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -352,7 +348,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted to a tab panel" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -366,21 +362,16 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="updated readme" />
+    <MESSAGE value="googleplacesfield map and place interconnectivity" />
+    <MESSAGE value="converted to a tab panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CodeBox.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="54" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="75" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -388,39 +379,34 @@
         <state line="54" column="44" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/ux/GooglePlacesField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="75" selection-start="581" selection-end="581" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/sink.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="86" selection-start="3161" selection-end="3170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="64" column="21" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ux/GooglePlacesField.js">
+    <entry file="file://$PROJECT_DIR$/resources/css/sink.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="47" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.025597269">
-          <folding />
-        </state>
+        <state line="168" column="86" selection-start="3161" selection-end="3170" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="54" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="2" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.26940638" />
       </provider>
     </entry>
   </component>
